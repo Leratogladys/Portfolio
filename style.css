@@ -70,6 +70,7 @@ nav {
   justify-content: space-between;
   padding: 20px 48px;
   background: rgba(2, 16, 36, 0.92);
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(84, 131, 179, 0.15);
 }
@@ -370,6 +371,21 @@ section {
 
 .project-links a:hover {
   opacity: 0.75;
+}
+/* ============================================================
+   DEMO
+   ============================================================ */
+.demo-link {
+  background: rgba(255, 211, 0, 0.1);
+  border: 1px solid rgba(255, 211, 0, 0.4);
+  border-radius: 4px;
+  padding: 2px 10px;
+  transition: background 0.2s;
+}
+
+.demo-link:hover {
+  background: rgba(255, 211, 0, 0.18);
+  opacity: 1;
 }
 
 /* ============================================================
